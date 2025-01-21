@@ -1,5 +1,130 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+/* quicksand font link */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+/* Raleway font link */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* shared style */
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+}
+.raleway-font {
+  font-family: "Raleway", serif;
+}
+.flex {
+  display: flex;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.hidden {
+  display: none;
+}
+
+/*full  header section styles  */
+
+/* nab bar style */
+.nabbar-section {
+  justify-content: space-between;
+  align-items: center;
+}
+.nabbar-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.page-name {
+  font-size: 32px;
+  font-weight: 700;
+}
+.page-link-container {
+}
+.page-links {
+  list-style: none;
+  gap: 32px;
+}
+.page-links > li {
+  font-size: 20px;
+  font-weight: 700;
+}
+#home {
+  text-decoration: none;
+  color: rgb(254, 163, 1);
+}
+#about {
+  text-decoration: none;
+  color: rgb(1, 172, 253);
+}
+#facilities {
+  text-decoration: none;
+  color: rgb(5, 212, 223);
+}
+#admission {
+  text-decoration: none;
+  color: rgb(93, 88, 239);
+}
+.btn {
+  border: none;
+  background-color: rgb(254, 163, 1);
+  border-radius: 12px;
+  padding: 10px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+/* horizontal line style */
+#horizontal-line {
+  display: none;
+}
+/* header banner section  styles */
+.banner-section {
+  margin: 18px auto 60px auto;
+}
+.banner-container {
+  justify-content: space-between;
+}
+.heading-box {
+  align-content: center;
+}
+.banner-container-heading {
+  font-size: 56px;
+  font-weight: 700;
+}
+#heading-1 {
+  color: rgb(254, 163, 1);
+}
+#heading-2 {
+  color: rgb(17, 17, 17);
+}
+#heading-3 {
+  color: rgb(1, 172, 253);
+}
+.banner-container-description {
+  font-size: 20px;
+  margin: 24px 0;
+}
+.btn-secondary {
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  width: 150px;
+}
+.banner-image {
+  width: 100%;
+}
+
+.horizontal-line-2 {
+  border-style: dashed;
+  border: 1px solid grey;
+  border-style: dashed;
 }

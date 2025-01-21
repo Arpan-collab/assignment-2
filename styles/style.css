@@ -128,3 +128,251 @@
   border: 1px solid grey;
   border-style: dashed;
 }
+/* main section styles */
+
+/* standard curriculam section styles */
+.standard-curriculam-section {
+  margin-top: 60px;
+  background-image: url(/assets/bg.png);
+}
+.standard-curriculam-section-heading-conatiner {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.standard-curriculam-section-heading {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+/* card section styles */
+.card-section-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.card {
+  padding: 65px 40px;
+  background: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  border: 0.94px solid rgb(222, 245, 255);
+  border-radius: 18.86px;
+}
+.image-container {
+  text-align: center;
+}
+.card-image {
+}
+.card-heading {
+  color: rgb(32, 32, 32);
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+.card-paragraph {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(128, 128, 128);
+  margin: 33px auto 38px auto;
+  text-align: center;
+}
+.read-more {
+  color: rgb(100, 200, 255);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.card-2 {
+  padding: 65px 40px;
+  border: 0.94px solid rgb(255, 244, 220);
+  border-radius: 18.86px;
+  background: linear-gradient(
+      180deg,
+      rgb(255, 244, 220),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+.read-more-second {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(240, 170, 0);
+}
+.card-3 {
+  padding: 65px 40px;
+  border-radius: 18.86px;
+  border: 0.94px solid rgb(242, 232, 255);
+  background: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+
+.read-more-third {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(135, 0, 255);
+}
+/* arrow button */
+.arrow-button-container {
+  text-align: center;
+  margin: 80px auto 60px auto;
+}
+
+.arrow {
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  background: rgb(254, 163, 1);
+  border: none;
+  padding: 17px 25px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+/* our stories section styles */
+
+.our-stories-heading-container {
+  text-align: center;
+  margin: 60px 0 60px 0;
+}
+.our-stories-heading {
+  font-size: 46px;
+  font-weight: 700;
+}
+/* card section styles */
+/*
+.background-img-color {
+  background: url(/assets/bg.png),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+.all-card-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.big-card {
+
+}
+.big-card-image-container {
+  width: 100%;
+}
+.big-card-image {
+  border-radius: 16px 16px 0 0;
+}
+.big-card-heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  padding-bottom: 50px;
+}
+.big-card-description {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+.big-card-text-container {
+  padding-top: 61px;
+  padding-left: 38px;
+  border-radius: 0 0 16px 16px;
+  background: rgb(255, 255, 255);
+}
+/* 4 cards styles */
+
+/* .story-image-container {
+} */
+/* .story-image {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+.story-heading-container{
+  background: rgb(255, 255, 255);
+} */
+/* .story-card-heading {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 33px;
+}
+.cards-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:20px;
+}  */
+
+/* footer section styles */
+.footer {
+  background-color: rgb(1, 172, 253);
+}
+.footer-seciton {
+  padding: 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 150px;
+}
+.logo-container {
+  align-items: center;
+  margin-bottom: 35px;
+}
+.kids-education-name {
+  margin-left: 10px;
+  font-size: 43px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.footer-logo-container {
+  width: 70px;
+}
+.footer-logo {
+  width: 100%;
+}
+.footer-description {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.page-sections {
+  list-style: none;
+}
+.about-school {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 32px;
+}
+.home {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.about {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.facilities {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.admission {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.social-media-heading{
+color: rgb(255, 255, 255);
+font-size: 26px;
+font-weight: 700;
+padding-bottom: 32px;
+}
+.connect-via-social-media{
+gap: 10px;
+}

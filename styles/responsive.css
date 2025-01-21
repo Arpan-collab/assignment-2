@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
   }
- .header {
+  .header {
     margin: 12px 16px;
-}
+  }
   #logo-img {
     width: 50px;
   }
@@ -24,24 +24,41 @@
   .btn {
     display: none;
   }
-#horizontal-line{
+  #horizontal-line {
     margin-top: 12px;
     display: block;
     width: 100%;
     border: 0.5px solid rgb(254, 163, 1);
-}
-.banner-container{
+  }
+  .banner-container {
     flex-direction: column-reverse;
-}
-.banner-container-heading{
-      font-size: 32px;
-      text-align: center;
-}
-.enroll-now{
+  }
+  .banner-container-heading {
+    font-size: 32px;
     text-align: center;
-}
+  }
+  .enroll-now {
+    text-align: center;
+  }
+  .card-section-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .standard-curriculam-section {
+    margin: 12px 16px;
+  }
 
+  /* footer section responsive */
 
-
-
+  .logo-container {
+    margin-top: 60px;
+  }
+  .footer-seciton {
+    margin: 12px 16px;
+    padding: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+  }
+.connect-via-social-media {
+    margin-bottom: 50px;
+  }
 }

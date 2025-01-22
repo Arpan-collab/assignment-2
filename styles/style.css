@@ -162,6 +162,7 @@
     rgb(255, 255, 255);
   border: 0.94px solid rgb(222, 245, 255);
   border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 .image-container {
   text-align: center;
@@ -195,6 +196,7 @@
       rgba(255, 255, 255, 0) 40%
     ),
     rgb(255, 255, 255);
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 .read-more-second {
   font-size: 16px;
@@ -212,6 +214,7 @@
       rgba(255, 255, 255, 0) 40%
     ),
     rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 
 .read-more-third {

@@ -130,9 +130,12 @@
 /* main section styles */
 
 /* standard curriculam section styles */
+.Curriculum-secssion-banner {
+  background-image: url(/assets/bg.png);
+}
 .standard-curriculam-section {
   margin-top: 60px;
-  background-image: url(/assets/bg.png);
+  /* background-image: url(/assets/bg.png); */
 }
 .standard-curriculam-section-heading-conatiner {
   text-align: center;
@@ -162,8 +165,6 @@
 }
 .image-container {
   text-align: center;
-}
-.card-image {
 }
 .card-heading {
   color: rgb(32, 32, 32);
@@ -236,6 +237,10 @@
 }
 
 /* our stories section styles */
+
+.our-story-heading-container {
+  margin-top: 60px;
+}
 
 .our-stories-heading-container {
   text-align: center;
@@ -326,23 +331,11 @@
   padding-bottom: 33px;
 }
 
-.view-all-btn{
+.view-all-btn {
   text-align: center;
   margin-top: 100px;
   padding-bottom: 70px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer section styles */
 .footer {
